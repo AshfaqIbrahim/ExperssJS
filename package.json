@@ -1,0 +1,19 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "my-first-expressjs",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "devStart": "nodemon script.js"
+  },
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
