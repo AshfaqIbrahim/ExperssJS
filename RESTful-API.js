@@ -16,7 +16,7 @@ let users = [
 //GET all users
 app.get("/users", (req, res) => {
   res.status(200).json(users);
-});
+}); 
 
 //GET single user
 app.get("/users/:id", (req, res) => {

@@ -17,18 +17,17 @@
 
 // app.listen(3000);
 
+// //
+// //route parameter
+// const express = require("express");
+// const app = express();
+// const PORT = 3000;
 
-//
-//route parameter
-const express = require("express");
-const app = express();
-const PORT = 3000;
+// app.get("/users/:userId", (req, res) => {
+//   const userId = req.params.userId;
+//   res.send(`<h1>User Profile</h1><p>User ID: ${userId}</p>`);
+// });
 
-app.get("/users/:userId", (req, res) => {
-  const userId = req.params.userId;
-  res.send(`<h1>User Profile</h1><p>User ID: ${userId}</p>`);
-});
-
-app.listen(PORT, () => {
-  console.log(`Server is running at http://localhost:${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server is running at http://localhost:${PORT}`);
+// });
