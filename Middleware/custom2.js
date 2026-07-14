@@ -7,15 +7,11 @@ const logger = (req, res, next) => {
   next();
 };
 
-//Using the middleware
-app.use(logger);
-
 //Route
-app.get("/users", (req, res) => {
+app.get("/users", logger, (req, res) => {
   res.send("User page");
 });
 
 app.listen(3000, () => {
   console.log("http://localhost:3000");
 });
- 

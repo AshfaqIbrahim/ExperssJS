@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 
-
 const checkUser = (req, res, next) => {
   //custom middleware function
   const isLoggedIn = false;
@@ -19,5 +18,4 @@ app.get("/profile", checkUser, (req, res) => {
 
 app.listen(3000, () => {
   console.log("http://localhost:3000");
-}); 
-
+});
